@@ -12,7 +12,7 @@ struct Person {
     var data: [Contact] = DataManager.contacts.shuffled()
 }
 
-struct Contact: Hashable, Identifiable {
+struct Contact: Identifiable {
     
     let id: Int
     let firstName: String
