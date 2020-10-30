@@ -9,8 +9,8 @@
 import SwiftUI
 
 struct ContactListView : View {
-    var person = Person()
     
+    var person = Person()
     
     var body: some View {
         NavigationView {

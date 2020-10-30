@@ -7,6 +7,7 @@
 import SwiftUI
 
 struct ContactDetail : View {
+    
     var person: Person
     var contact: Contact
     
